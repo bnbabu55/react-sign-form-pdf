@@ -1,0 +1,72 @@
+body {
+  font-family: serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.App {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+form {
+  padding: 20px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 150px;
+  height: 30px;
+  color: gray;
+  display: block;
+  margin: 10px 0;
+  border-bottom: 1px solid darkslategray;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.form-fields label {
+  margin-right: 20px;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 0.5rem 3rem;
+  margin-top: 2rem;
+  font-weight: semibold;
+  border-radius: 10px;
+}
+
+canvas {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #333333;
+}
