@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
     paddingBottom: "18pt",
   },
   image: {
-    width: 300,
-    height: 70,
+    width: 210,
+    height: 49,
   },
 });
 

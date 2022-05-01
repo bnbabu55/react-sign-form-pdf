@@ -173,6 +173,7 @@ const Form = ({ formSubmitted }) => {
                 name="signatureCanvas"
                 id="signatureCanvas"
                 penColor="blue"
+                dotSize={0.2}
                 canvasProps={{
                   width: 300,
                   height: 70,
